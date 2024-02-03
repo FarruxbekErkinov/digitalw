@@ -1,0 +1,166 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    min-height: 100vh;
+    background-image: url(../imgs/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background -size contain: 
+}
+ul{
+    list-style: none;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0px;
+    
+}
+ nav button{
+    background-color: red;
+ }
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav_right ul{
+    display: flex;
+    gap: 40px;
+}
+
+.nav_right ul li{
+    border-bottom: 2px solid #098a5b00 !important;
+    padding: 5px 0px;
+    transition: all .3s ease;
+}
+.nav_right ul li:hover {
+    border-bottom: 2px solid #098A5B !important;
+}
+.nav_right ul a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav_right button, .nav_right select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+
+.nav_right select option{
+    background-color: black;
+}
+.nav_right button img{
+    width: 15px;
+}
+
+.contact{
+    border: 2px solid #098A5B !important;
+    padding: 10px 20px;
+}
+ .hero .container{
+    color: white;
+    padding: 50px 30px ;
+
+}
+ .hero .container button{
+    font-style: 16px;
+    font-weight: 600;
+
+    border: 2px solid #098A5B ;
+    color:  #098A5B;
+    background-color: black;
+    padding: 30px 50px;
+    margin-bottom: 5px ;
+    cursor: pointer;
+    margin-bottom: 50px;
+
+}
+ 
+.hero .container h3{
+    color: #098A5B;
+    font-size: 16px ;
+    font-weight: 600;
+    margin-bottom: 10px ;
+    
+}
+.hero .container h1{
+    color: white;
+    font-style: 64px;
+    font-weight: 700;
+    line-height: 77px;
+     margin-bottom: 20px;
+}
+
+.hero .cards .box{
+    background-color: #313131;
+    width: 300px;
+    padding: 30px;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+
+
+}
+  .hero.cards.box img{
+    margin: bottom 20px; 
+}
+.hero .cards .box h3{
+    color: white;
+    font-size: 22px;
+    font-weight:700 ;
+    
+}
+.hero.cards.box p{
+    color: white;
+    font-style: 13px;
+    font-weight: 500;
+    line: height 22px; 
+
+}
+
+
+.hero .cards .box .line{
+    width: 100px;
+    height: 2px;
+    background-color: #098A5B;
+    margin-bottom: 20px;
+
+}
+
+.main .container .dex{
+    width: 100px;
+    height: 2px;
+    background-color: #098A5B;
+    margin-bottom: 20px;
+
+
+}
